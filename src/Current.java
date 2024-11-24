@@ -21,7 +21,7 @@ public class Current extends BankAccount {
             System.out.println("Transaction ID: " + transactions.get(i).getTransactionID());
             System.out.println("Transaction Type: " + transactions.get(i).getTransactionType());
             System.out.println("Transaction Amount: " + transactions.get(i).getAmount());
-
         }
+        System.out.println("-----------------------------------------------------------------------------");
     }
 }
